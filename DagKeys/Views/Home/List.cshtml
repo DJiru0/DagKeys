@@ -1,0 +1,58 @@
+﻿@model DagKeys.Models.Supporter
+
+@{
+    ViewBag.Title = "List";
+}
+
+<h2>List</h2>
+
+<div>
+    <h4>Supporter</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.firstName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.firstName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.lastName)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.lastName)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.yearsOfSupport)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.yearsOfSupport)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.location)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.location)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.contributionType)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.contributionType)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.supporterId }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>

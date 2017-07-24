@@ -4832,7 +4832,7 @@ textarea.input-group-sm > .input-group-btn > .btn {
   display: none;
 }
 
-.label-default {
+.label-default { 
   background-color: #999999;
 }
 
@@ -4944,7 +4944,7 @@ a.list-group-item.active > .badge,
 
 .jumbotron p {
   line-height: 1.4;
-  text-align : center;
+  text-align : center
 }
 
 .container .jumbotron {
